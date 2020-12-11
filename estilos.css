@@ -1,45 +1,45 @@
 body {
     background-color: #76D7C4;
-  }
+}
   
-  div
-  {
-      text-align: center;
-  }​
-  h1 
-  {
+h1 
+{
     font-family: Arial;
     font-size: 30px;
     color: white;
     text-align: center;
-  }
-  
-  p 
-  {
+}
+div
+{
+      text-align: center;
+}​
+p 
+{
    font-family: Arial;
    font-size: 14px;
    color: gray;
-  }
+}
   
-  input {
+input {
     font-family: Arial;
     font-size: 14px;
     color: gray;
-    width: 70%;
+    width: 30%;
     padding: 12px 20px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
   
-  label {
+label {
     font-family: Arial;
     font-size: 12px;
     color: gray;
     width: 50%;
     display: inline-block;
-  }
+}
+  
   
   
   

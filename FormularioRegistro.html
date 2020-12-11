@@ -1,29 +1,32 @@
 <html>
 	<head>
-	<title>Formulario de Registro de Usuarios</title>
-	</head>
+    <title>Formulario de Registro de Usuarios</title>
+    <style>
+        @import "estilos.css";
+    </style>
+    </head>
+    <br><br><br>
 	<body>
-	<h1>Regitro de Usuarios</h1>
+    <h1>Regitro de Usuarios</h1>
     
     <form>
-      	<div>
-            <input type = "text" name="usuario" value="Usuario"/><br>
-            <input type = "text" name="nombre" value="Nombre"/><br>
-            <input type = "email" name="correo" value="Email"/><br> 
+        <div>
+            <input type = "text" name="usuario" placeholder="Usuario"/><br>
+            <input type = "text" name="nombre" placeholder="Nombre"/><br>
+            <input type = "email" name="correo" placeholder="Email"/><br> 
     	</div>
     </form>
     <br>
     <form type= psw>
       <div>
       		<label for="pwd">Password:</label><br>
-      		<input type = "password" name="C01" ="a" /><br>
+      		<input type = "password" name="C01" /><br>
       		<label for="pwd">Confirme su Password:</label><br>
             <input type = "password" name="C02" /><br>
         	<br>
    			<input type="submit" value="Registrar Usuario">
       </div>
     </form>
-    
     
 	</body>
 </html>
