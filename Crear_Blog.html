@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Pagina inicial</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+</head>
+<br><br><br>
+<body>
+    <h1>Creación de Blog</h1>
+
+<form>
+    
+    <div>
+        <input type = "text" name="nombreblog" placeholder="Nombre del Blog"/>
+        <br><br>
+        <label for="e1">Cargue la Imagen del blog</label>
+        <br>
+        <input type="file" name="cargaimagen" accept=".png, .jpeg, .jpg, .gif">
+        <br><br>
+        <input type="text" name="textoblog" placeholder="Escriba aquí el texto del blog"/>
+        <br><br>
+        <input type="text" name="palabrasclave" placeholder="Ingrese las palabras clave del blog"/>
+        <br><br>
+        <label for="e2">Seleccione el tipo de blog</label>
+        <br>
+        <select name="OS">
+            <option selected value="0"> Elija una opción </option>
+            <option value="1">Público</option> 
+            <option value="2">Privado</option> 
+         </select>
+         <br><br>
+         <input type="submit" value="Crear blog">       
+    </div>
+
+</form>  
+
+</body>
+</html>
