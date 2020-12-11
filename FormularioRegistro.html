@@ -3,15 +3,27 @@
 	<title>Formulario de Registro de Usuarios</title>
 	</head>
 	<body>
-	<h1>Formulario de Resgitro de Usuarios</h1>
+	<h1>Regitro de Usuarios</h1>
+    
     <form>
-        <lo>
-            <input type = "text" name="usuario"/>
-            <input type = "text" name="nombre"/>
-            <input type = "text" name="correo"/>
-            <input type = "text" name="contraseña01"/>
-            <input type = "text" name="contraseña02"/>
-        </lo>
+      	<div>
+            <input type = "text" name="usuario" value="Usuario"/><br>
+            <input type = "text" name="nombre" value="Nombre"/><br>
+            <input type = "email" name="correo" value="Email"/><br> 
+    	</div>
     </form>
+    <br>
+    <form type= psw>
+      <div>
+      		<label for="pwd">Password:</label><br>
+      		<input type = "password" name="C01" ="a" /><br>
+      		<label for="pwd">Confirme su Password:</label><br>
+            <input type = "password" name="C02" /><br>
+        	<br>
+   			<input type="submit" value="Registrar Usuario">
+      </div>
+    </form>
+    
+    
 	</body>
 </html>
