@@ -1,13 +1,21 @@
 body {
     background-color: #76D7C4;
 }
-  
+ 
+
 h1 {
     font-family: Arial;
-    font-size: 30px;
+    font-size: 40px;
     color: #ffffff;
     text-align: center;
 }
+h2 {
+    font-family: Arial;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: left;
+}
+
 
 p{
     font-family: Arial;
@@ -68,11 +76,24 @@ input {
     border-radius: 4px;
     box-sizing: border-box;
 }
-#buscar {
+
+#btn_buscar {
     font-family: Arial;
     font-size: 14px;
     color: gray;
-    width: 69%;
+    width: 10%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#ent_buscar {
+    font-family: Arial;
+    font-size: 14px;
+    color: gray;
+    width: 89%;
     padding: 12px 20px;
     display: inline-block;
     border: 1px solid #ccc;
