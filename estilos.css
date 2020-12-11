@@ -29,14 +29,14 @@ body {
     width: 50%;
     display: inline-block;
   }
-  
+  div
+  {
+      text-align: center;
+  }​
   p {
    font-family: Arial;
    font-size: 14px;
    color: gray;
   }
   
-  div
-  {
-      text-align: center;
-  }​
+  
