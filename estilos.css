@@ -2,13 +2,24 @@ body {
     background-color: #76D7C4;
   }
   
-  h1 {
+  div
+  {
+      text-align: center;
+  }​
+  h1 
+  {
     font-family: Arial;
     font-size: 30px;
     color: white;
     text-align: center;
   }
   
+  p 
+  {
+   font-family: Arial;
+   font-size: 14px;
+   color: gray;
+  }
   
   input {
     font-family: Arial;
@@ -29,14 +40,6 @@ body {
     width: 50%;
     display: inline-block;
   }
-  div
-  {
-      text-align: center;
-  }​
-  p {
-   font-family: Arial;
-   font-size: 14px;
-   color: gray;
-  }
+  
   
   
