@@ -2,27 +2,44 @@ body {
     background-color: #76D7C4;
 }
   
-h1 
-{
+h1 {
     font-family: Arial;
     font-size: 30px;
     color: #ffffff;
     text-align: center;
 }
-p
-{
+
+p{
     font-family: Arial;
     font-size: 30px;
     color: #ffffff;
     text-align: center;  
 }
 
-div
-{
+div{
       text-align: center;
-}​
-p 
-{
+}
+#cabecera{   
+    color: #76D7C4;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    position:relative; margin:0 auto; width:1000px;
+    width:100%; float:left;
+    position:fixed; top:0; z-index:999999;
+  }
+#contenido{
+    text-align: center;
+}  
+#pie{
+    background-color: black;   
+    color: #76D7C4;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    position:relative; margin:0 auto; width:960px;
+    width:100%; float:left;
+    position:fixed; bottom:0; z-index:999999;
+  }
+p {
    font-family: Arial;
    font-size: 14px;
    color: gray;
@@ -45,6 +62,17 @@ input {
     font-size: 14px;
     color: gray;
     width: 30%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#buscar {
+    font-family: Arial;
+    font-size: 14px;
+    color: gray;
+    width: 69%;
     padding: 12px 20px;
     display: inline-block;
     border: 1px solid #ccc;
