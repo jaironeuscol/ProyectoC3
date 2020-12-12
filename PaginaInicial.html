@@ -8,18 +8,28 @@
 </head>
 <br>
 <body>
-	<div id="cabecera">
+	<ul>
+        <div id="cabecera">
 
-		<input id="ent_buscar" type="text" name="BarraBusqueda" placeholder="Buscar blog" >
-		<input id="btn_buscar"type="submit" name="buscar" value="Buscar">
-	</div>
+            <input id="buscar_boton" type="submit" name="buscar" value="Buscar">
+            <input id="buscar_sup" type="text" name="BarraBusqueda" placeholder="Buscar blog" >
+        </div>
+
+        <li><a href="PaginaInicial.html">Inicio</a></li>
+        <li><a href="Pagina_Principal.html">Cerrar sesión</a></li>
+        
+    </ul>
 	<div id= contenido>
 		<img id="logo" src="imagenes/Logo.png" width="40%" height="40%">
 		<br>
-           <input type="submit" value="Crear Blog" onclick="location.href='Actualizar_blog.html'">
-           <input type="submit" value="Actualizar Blog" onclick="location.href='VerBlogs.html'">
+		<div>
+		   <input type="submit" value="Crear Blog" onclick="location.href='Crear_Blog.html'">
+		   <input type="submit" value="Actualizar Blog" onclick="location.href='Actualizar_blog.html'">
+		</div>
+		<div>
 		   <input type="submit" value="Eliminar Blog" onclick="location.href='EliminarBlog.html'">
 		   <input type="submit" value="Ver mis Blogs" onclick="location.href='VerBlogs.html'">
+		</div>
 	</div>
     <div id="pie">
       <h4>Sitio Desarrollado por:</h4>

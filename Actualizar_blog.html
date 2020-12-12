@@ -8,17 +8,34 @@
 </head>
 <br>
 <body>
+	<ul>
+        <div id="cabecera">
+
+            <input id="buscar_boton" type="submit" name="buscar" value="Buscar">
+            <input id="buscar_sup" type="text" name="BarraBusqueda" placeholder="Buscar blog" >
+        </div>
+
+        <li><a href="PaginaInicial.html">Inicio</a></li>
+        <li><a href="Pagina_Principal.html">Cerrar sesión</a></li>
+        
+    </ul>
+    <br>
     <img src="./imagenes/Logo.png" style="display: block;
     margin-left: auto;
     margin-right: auto;
     width: 18%;" alt="">
     <h1>Actualización de Blog</h1>
-
 <form>
     
     <div>
-        <input type = "text" name="nombreblog2" placeholder="Nombre del Blog"/>
-        <br><br>
+        <select>
+
+            <option>Blog1 </option>
+            <option>Blog2</option>
+            <option>Blog3</option>
+        
+        </select>
+        <br>
         <label for="e10">Actualice la Imagen del blog</label>
         <br>
         <input type="file" name="cargaimagen2" accept=".png, .jpeg, .jpg, .gif">
