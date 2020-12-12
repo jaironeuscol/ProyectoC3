@@ -35,6 +35,15 @@ div{
     width:100%; float:left;
     position:fixed; top:0; z-index:999999;
   }
+#barra{
+    color: #76D7C4;
+    text-align: left;
+    margin: 10px 0 0 10px;
+    position:relative; margin:0 auto; width:1000px;
+    width:100%; float:left;
+    position:fixed; top:0; z-index:999999;
+}
+
 #contenido{
     text-align: center;
 }  
@@ -100,6 +109,31 @@ input {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+#buscar_sup{
+    font-family: Arial;
+    font-size: 16px;
+    color: gray;
+    width: 20%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: right;
+}
+
+#buscar_boton{
+    font-family: Arial;
+    font-size: 16px;
+    color: gray;
+    width: 10%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: right;
+}
+
   
 label {
     font-family: Arial;
@@ -107,5 +141,39 @@ label {
     color: gray;
     width: 50%;
     display: inline-block;
+}
+
+ul {
+    list-style-type: none ;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fdfafaec;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: Arial;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+
+}
+
+li:hover {
+    background-color: rgb(211, 202, 202);
+}
+
+.content {
+    margin-top: 60px;
 }
   
