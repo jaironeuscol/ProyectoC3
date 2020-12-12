@@ -9,15 +9,8 @@
 <br>
 <body>
     <ul>
-        <div id="cabecera">
-
-            <input id="buscar_boton" type="submit" name="buscar" value="Buscar">
-            <input id="buscar_sup" type="text" name="BarraBusqueda" placeholder="Buscar blog" >
-        </div>
-
-        <li><a href="Home.html">Home</a></li>
-        <li><a href="Pagina_Principal.html">Iniciar sesión</a></li>
-        
+        <div id="cabecera"></div>
+        <li><a href="Pagina_Principal.html">Iniciar sesión</a></li> 
     </ul>
 
 <br>
@@ -30,7 +23,12 @@
     <form>
         <div>
             <input type = "text" name="usuario" placeholder="Usuario"/><br>
-            <input type = "email" name="correo" placeholder="Email"/><br> 
+            
+            <script type="text/javascript" src="app.js">
+            </script>
+            <input type="text" id="email" name="email" placeholder="Email" class="form-control" onkeyup="validarEmail(this)" required>
+            <a id='resultado'></a>
+
     	</div>
     </form>
     <br>
@@ -41,7 +39,6 @@
       		<label for="pwd">Confirme su Password:</label><br>
             <input type = "password" name="C02" /><br>
             <br>
-            <hr>
    			<input type="submit" value="Registrar Usuario">
       </div>
     </form>
