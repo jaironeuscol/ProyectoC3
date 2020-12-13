@@ -14,8 +14,24 @@ h2 {
     font-size: 20px;
     color: #ffffff;
 }
+h3 {
+    font-family: Arial;
+    font-size: 14px;
+    color: #ffffff;
+}
 
+a {
+    font-family:'Arial';
+    font-size: 18px;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+}
 
+hr{
+    border: 1px solid rgb(231, 229, 229);
+    border-radius: 5px;
+}
 p{
     font-family: Arial;
     font-size: 30px;
@@ -43,9 +59,12 @@ div{
     position:fixed; top:0; z-index:999999;
 }
 
-#contenido{
+#btns_contenido{
     text-align: center;
-}  
+} 
+#blogs_contenido{
+    text-align: left;
+}   
 #pie{
     background-color: #234c59;   
     color: #76D7C4;
@@ -83,6 +102,16 @@ input {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+}
+
+#comentario{
+    width: 70%;
+}
+#div_comentario{
+    background-color: red;
+    border: 1px solid #ccc;
+    width: 2000px;
+    height: 200px;
 }
 
 #btn_buscar {
