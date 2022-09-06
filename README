@@ -1,0 +1,8 @@
+Aplicación web desarrolada con HTML, CSS, JavaScript y Python. 
+Se usa el framework Flask
+Esta aplicación contiene formularios y logica de back para un blog, donde los usuarios puedes:
+1. Crear una cuenta
+2. Crear blogs (Titulo, imagen, Texto)
+3. Actualizar blogs de su propiedad
+4. Eliminar blogs de su propiedad
+5 comentar blogs
